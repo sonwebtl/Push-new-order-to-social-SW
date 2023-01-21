@@ -5,7 +5,6 @@
 			<h2 class="title-ponsw"><?php _e(' New order Notification for Social & Telegram - SonWeb', 'sonweb');?></h2>
 			<div class="donate">
 				<a class="button button-large" href="<?php echo esc_url(' https://www.paypal.com/paypalme/sonwebtl/2usd');?>" target="_blank">
-					<img class="emoji" src="<?php echo esc_url('https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg'); ?>" />
 					<?php _e('Click to Donate - Paypal', 'sonweb');?>
 				</a>
 			</div><!--end donate-->
@@ -16,9 +15,6 @@
 							<h3 class="hndle"><?php _e('Plugin Settings', 'sonweb');?></h3>
 							<div class="inside">
 								<div class="notice-setting">
-									<strong><?php _e('Create new APIKey Facebook', 'sonweb');?>  <a href="<?php echo esc_url('https://m.me/api.callmebot');?> " target="_blank"> <?php _e('https://m.me/api.callmebot', 'sonweb');?></a></strong> <br>
-									<strong><?php _e('Authorize CallMeBot to Telegram', 'sonweb');?> <a href="<?php echo esc_url('https://api2.callmebot.com/txt/login.php');?>" target="_blank"><?php _e('https://api2.callmebot.com/txt/login.php', 'sonweb');?> </a></strong><br>
-									<hr>
 									<span><?php _e('Copy key and Username Telegram insert to input', 'sonweb');?></span>
 								</div>
 								<form method="post" action="options.php" class="cnb-container">
